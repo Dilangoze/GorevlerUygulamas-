@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             editText.text.clear()
         }
 
-        // Clearing all the items in the list when the clear button is pressed
+        
         editButton.setOnClickListener {
             val selectedItemPositions = listView.checkedItemPositions
             val itemCount = listView.count
